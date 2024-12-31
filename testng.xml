@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="MyTests">
+        <classes>
+            <class name="test_website.DriverSetup" />
+            <class name="test_website.AddToCart" />
+            <class name="test_website.RegisterAccount" /> 
+            <class name="test_website.SearchItems"/>
+            <class name="test_website.Cart"/> 
+            <!--Comment-->
+        </classes>
+    </test>
+</suite>
